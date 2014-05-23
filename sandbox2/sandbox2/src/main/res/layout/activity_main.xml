@@ -1,0 +1,120 @@
+<FrameLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clickable="false"
+    android:minHeight="380dp">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="380dp"
+        android:background="@android:color/black"
+        android:clickable="false"
+        android:layout_margin="5dp"
+        android:id="@+id/grid">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/imageView"
+            android:layout_gravity="left|top"
+            android:minHeight="380dp"
+            android:visibility="gone"
+            android:clickable="false" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/b00"
+            android:layout_gravity="left|top"
+            android:background="#ffffff" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/b01"
+            android:layout_gravity="center_horizontal|top"
+            android:background="#ffffff" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/b02"
+            android:layout_gravity="right|top"
+            android:background="#ffffff" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/b10"
+            android:layout_gravity="left|center_vertical"
+            android:background="#ffffff" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/b11"
+            android:layout_gravity="center"
+            android:background="#ffffff" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/b12"
+            android:layout_gravity="right|center_vertical"
+            android:background="#ffffff"
+             />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/b20"
+            android:layout_gravity="left|bottom"
+            android:background="#ffffff" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/b21"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="#ffffff" />
+
+        <ImageButton
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:id="@+id/b22"
+            android:layout_gravity="right|bottom"
+            android:background="#ffffff" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_gravity="left|bottom"
+        android:height="30dp"
+        android:width="280dp"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset Game"
+            android:id="@+id/reset"
+            android:layout_gravity="right|bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>
